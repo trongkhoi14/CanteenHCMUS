@@ -1,0 +1,107 @@
+.schedule-navigation
+{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 1em;
+    background-color: #D9D9D9;
+}
+
+input[type="week"], textarea 
+{
+    padding-top: 1em;
+    background-color : white; 
+}
+
+input[type=week], select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.schedule-week
+{
+    justify-self: center;
+    align-self: center;
+    padding-top: 1%;
+}
+
+.schedule-navigation label
+{
+    padding-right: 1em;
+    font-size: medium;
+}
+
+.schedule-container
+{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+th
+{
+    padding: 2em;   
+    padding-top: 1em;
+    padding-bottom: 5px;
+    width: 20em;
+    background-color: #3498db;
+    text-align: center;
+}
+
+td
+{
+    padding: 2em;   
+    padding-top: 0;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #D9D9D9;
+    height: 8em;
+}
+
+td > h1
+{
+    font-size: smaller;
+}
+
+
+.loader 
+{
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

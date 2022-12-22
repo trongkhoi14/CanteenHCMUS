@@ -1,0 +1,133 @@
+#payment {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.payment-side {
+    width: 30%;
+    background-color: rgb(253, 89, 133);
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.payment-side__valid,
+.payment-side__supplier {
+    padding: 20px 0;
+}
+
+.payment-side__valid p {
+    font-size: 24px;
+}
+
+.payment-side img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+    margin-right: 10px;
+}
+
+.payment-side__totalMoney,
+.payment-side__order,
+.payment-side__state,
+.payment-side__back {
+    border-top: 1px solid rgb(250, 162, 162);
+    padding: 15px 10px;
+}
+
+.payment-side__back {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 40px;
+}
+
+.payment-side__back img {
+    margin-right: 0;
+}
+
+.payment-side__totalMoney h4,
+.payment-side__order h4,
+.payment-side__state h4 {
+    display: flex;
+    align-items: center;
+}
+
+.payment-container {
+    width: 60%;
+    margin-left: 20px;
+}
+
+.payment-container__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.payment-container__header img {
+    width: 150px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.payment-container__content {
+    border-top: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.payment-container__content h4 {
+    margin-top: 20px;
+    color: rgb(253, 89, 133);
+    font-size: 25px;
+}
+
+.payment-container__content img {
+    width: 230px;
+    height: 230px;
+}
+
+.payment-container__content .waiting {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

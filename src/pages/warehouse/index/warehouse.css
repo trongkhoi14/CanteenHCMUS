@@ -1,0 +1,18 @@
+.warehouse-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.warehouse-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.warehouse-content__header {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-size: 20px;
+    color: #000;
+}

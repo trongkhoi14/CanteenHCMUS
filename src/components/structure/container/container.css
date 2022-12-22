@@ -1,0 +1,4 @@
+#container {
+    margin: calc(var(--header-height) + 30px) auto 0;
+    padding-bottom: calc(var(--footer-height) + 20px);
+}

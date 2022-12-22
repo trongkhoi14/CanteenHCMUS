@@ -1,0 +1,125 @@
+
+  
+  .app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fff;
+  }
+
+  .bgimg{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    background-image: url(../../../assets/images/LoginBg.jpg);
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+    content: 'Đăng nhập';
+  }
+  
+  input[type="submit"]:hover {
+    background: #6cf0c2;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    width: 50%;
+    background-color: white;
+    padding: 12rem;
+    margin-bottom: 6rem;
+  }
+  
+  .form {
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 
+    0 8px 16px rgb(0 0 0 / 10%);
+
+  }
+
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 1rem;
+  }
+  
+  .title {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+  }
+
+  .title-descrip {
+    font-size: 1.4rem;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+
+  .input-container input {
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif; 
+    height: 22px;
+    line-height: 16px;
+    font-size: 17px;
+    padding: 20px 16px;
+  }
+
+  .fogotPw-box{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    color: #01d28e;
+  }
+
+  .fogotPw {
+    cursor: pointer;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.submit-btn:hover {
+    background: #6cf0c2;
+}

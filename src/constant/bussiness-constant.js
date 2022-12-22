@@ -1,0 +1,3 @@
+export const GET_STATISTIC = 'GET_STATISTIC';
+export const SEARCH_REVENUE = 'SEARCH_REVENUE';
+

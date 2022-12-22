@@ -1,0 +1,7 @@
+.h-200 {
+    height: 200px;
+}
+.history-item:hover {
+    background-color: var(--cart-color);
+    cursor: pointer;
+}

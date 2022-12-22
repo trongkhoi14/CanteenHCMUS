@@ -1,0 +1,32 @@
+
+.btn-add {
+   
+    background: linear-gradient(to right, #fe2c55, #f29263);
+    border-radius: 8px;
+    height: 40px;
+    padding: 20px 10px; 
+    margin: 16px 0; 
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn-add:hover {
+    opacity: 0.8;
+}
+
+.create-employee-text {
+    display: none;
+}
+
+.btn-add:hover .create-employee-text{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.create-employee-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+}

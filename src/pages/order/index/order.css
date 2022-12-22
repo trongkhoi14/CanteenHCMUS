@@ -1,0 +1,44 @@
+#order {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+
+.order-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.order-search__id,
+.order-search__date {
+    display: flex;
+    flex-direction: row;
+}
+
+.order-search__date label img,
+.order-search__id label img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.order-search__date input,
+.order-search__id input {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 0 50px 0 10px;
+    margin-left: 10px;
+}
+
+.order-search__date input {
+    padding: 0 10px 0 50px;
+}
+
+.order-items {
+    display: flex;
+    flex-direction: column;
+}

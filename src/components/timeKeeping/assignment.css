@@ -1,0 +1,22 @@
+td
+{
+    text-align: center !important;
+    background-color: #D9D9D9;
+    height: 8em;
+    width: 20em;
+}
+.assign > td
+{
+    text-align: center;
+    padding-top: 3em;
+}
+
+td > h1
+{
+    font-size: smaller;
+}
+
+.check
+{
+    background-color: aquamarine;
+}

@@ -1,0 +1,131 @@
+#paySuccess {
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+}
+
+#paySuccess .header {
+    width: 100%;
+    height: 200px;
+    background: rgb(242, 164, 9);
+    position: relative;
+    z-index: -1;
+}
+
+#paySuccess .header .sub {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+}
+
+#paySuccess .content {
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+#paySuccess .content .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#paySuccess .content .title .title-icon {
+    width: 60px;
+    height: 60px;
+    filter: grayscale(100%) brightness(80%) sepia(300%) hue-rotate(50deg) saturate(500%);
+}
+
+#paySuccess .content .title .title-header {
+    text-align: center;
+    font-size: 30px;
+}
+
+#paySuccess .success-icon {
+    color: white;
+    background-color: rgb(46, 185, 46);
+    font-size: 50px;
+    text-align: center;
+    padding: 0 15px;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+#paySuccess .content .description {
+    margin: -10px 0 0 30px;
+}
+
+#paySuccess table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#paySuccess td,
+#paySuccess th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#paySuccess tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#paySuccess .footer {
+    background-color: rgb(242, 164, 9);
+    margin-top: 30px;
+    height: 80px;
+}
+
+#paySuccess .footer .copy-right {
+    margin-left: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#paySuccess .footer .copy-right p {
+    color: white;
+    font-size: 10px;
+}
+
+#paySuccess .footer .redirect-media {
+    margin-right: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#paySuccess .footer .redirect-media img {
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    margin-left: 320px;
+}
+
+#paySuccess .notification,
+#paySuccess .student,
+#paySuccess .order {
+    margin-top: 20px;
+}
+
+#paySuccess .notification h3,
+#paySuccess .student h3,
+#paySuccess .order h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#paySuccess .student p {
+    margin-left: 20px;
+}
+
+#paySuccess .order-content {
+    padding: 10px 20px;
+}

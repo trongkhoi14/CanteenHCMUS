@@ -1,0 +1,65 @@
+.img-radius {
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    border: none;
+    margin-bottom: 30px;
+}
+
+.border0 {
+    border: 1px solid #ccc!important;
+    border-radius: 8px;
+    width: 100%;
+    padding: 4px 8px;
+    
+}
+
+.btn-upload {
+    background: #000;
+    border-radius: 8px;
+    height: 40px;
+    padding: 20px 10px; 
+    margin: auto; 
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn-upload:hover .upload-img-text {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.upload-img-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.upload-img-text {
+    display: none;
+}
+
+.m-b-10 {
+    margin-bottom: 10px!important;
+}
+
+.close-btn {
+    position: fixed;
+    z-index: 300;
+    left: 72.5%;
+    top: 19.5%;
+    font-size: 30px;
+}
+
+.close-btn:hover {
+    font-size: 32px;
+    cursor: pointer;
+}

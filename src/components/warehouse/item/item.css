@@ -1,0 +1,34 @@
+.item-imgage-box {
+    height: 106px;
+}
+
+.item-imgage {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    cursor: pointer;
+}
+.item-imgage:hover {
+    transform: scale(1.1);
+}
+.faPenToSquare {
+    color: #000;
+    opacity: 0.5;
+}
+
+.faPenToSquare:hover {
+    opacity: 0.8;
+}
+
+.bg-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+.custom-input-img {
+    left: -160px;
+    position: relative;
+    
+}

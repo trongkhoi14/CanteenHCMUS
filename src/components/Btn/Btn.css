@@ -1,0 +1,19 @@
+.btnText {
+    /* background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#fe2c55)); */
+    background: linear-gradient(to right, #fe2c55, #f29263);
+    border-radius: 8px;
+    min-width: 100px;
+    height: 40px;
+    padding: 20px 20px; 
+    margin: 16px 0; 
+    -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+    font-weight: bold;
+    color: #fff;
+}
+
+.btnText:hover {
+    opacity: 0.8;
+}
+
+
